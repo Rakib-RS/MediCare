@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <Button
+        android:id="@+id/MButton"
+        android:layout_width="178dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Find\nMedicine"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/dcButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/amButton"
+        android:layout_width="178dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/colorPrimary"
+        android:text="Call\nAmbulance"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/blButton"
+        app:layout_constraintTop_toBottomOf="@+id/MButton" />
+
+    <Button
+        android:id="@+id/blButton"
+        android:layout_width="178dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/colorPrimary"
+        android:text="Blood\nBank"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dcButton" />
+
+    <Button
+        android:id="@+id/dcButton"
+        android:layout_width="178dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Find\nDoctor"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pButton"
+        android:layout_width="178dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="9dp"
+        android:background="@color/colorPrimary"
+        android:text="Primary\nTreatment"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blButton" />
+
+    <Button
+        android:id="@+id/healButton"
+        android:layout_width="178dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="9dp"
+        android:background="@color/colorPrimary"
+        android:text="Health\nTips"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/pButton"
+        app:layout_constraintTop_toBottomOf="@+id/amButton" />
+
+    -->
+
+</android.support.constraint.ConstraintLayout>

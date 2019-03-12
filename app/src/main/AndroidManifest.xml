@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medicare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BarisalActivity"></activity>
+        <activity android:name=".KhulnaActivity" />
+        <activity android:name=".MymensinghActivity" />
+        <activity android:name=".RajshahiActivity" />
+        <activity
+            android:name=".addNewContact"
+            android:label="Add new contact" />
+        <activity
+            android:name=".DetailsContact"
+            android:label="Contact Details" />
+        <activity
+            android:name=".EditContact"
+            android:label="Edit Contact" />
+        <activity android:name=".SylhetActivity" />
+        <activity android:name=".DhakaActivity" />
+        <activity android:name=".ChittagongActivity" />
+        <activity android:name=".MedicineInfActivity" />
+        <activity android:name=".HealthTipsActivity" />
+        <activity android:name=".PrimaryTreatmentActivity" />
+        <activity android:name=".BloodBank" />
+        <activity android:name=".CallAmbulance" />
+        <activity android:name=".FindMedicine" />
+        <activity android:name=".FindDoctor" />
+        <activity android:name=".InfActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

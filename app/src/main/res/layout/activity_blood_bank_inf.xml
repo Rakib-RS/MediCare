@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BloodBankInfActivity">
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/chiButton"
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Chittagong"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="117dp" />
+
+            <Button
+                android:id="@+id/DhButton"
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Dhaka"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textSize="35sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="219dp" />
+
+            <Button
+                android:id="@+id/sylButton"
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Sylhet"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="627dp" />
+
+            <Button
+                android:id="@+id/rajButton"
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Rajshahi"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="525dp" />
+
+            <Button
+                android:id="@+id/myButton"
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Mymensingh"
+                android:textSize="35sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="423dp" />
+
+            <Button
+                android:id="@+id/khulnaButton"
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Khulna"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="321dp" />
+
+            <Button
+                android:id="@+id/bariButton"
+                android:layout_width="350dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimary"
+
+                android:text="Barisal"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="7dp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

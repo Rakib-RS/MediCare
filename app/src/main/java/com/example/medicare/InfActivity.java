@@ -13,13 +13,40 @@ public class InfActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inf);
-        button2 = (Button) findViewById(R.id.MButton);
+        button2 = (Button) findViewById(R.id.dcButton);
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent dcIntent = new Intent(getApplicationContext(),FindMedicine.class);
-               // startActivity(dcIntent);
+                Intent dcIntent = new Intent(getApplicationContext(),DoctorInfActivity.class);
+               startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.mdButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),MedicineInfActivity.class);
+                startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.blButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),BloodBankInfActivity.class);
+                startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.amButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),CallAmbuLanceActivity.class);
+                startActivity(dcIntent);
             }
         });
 

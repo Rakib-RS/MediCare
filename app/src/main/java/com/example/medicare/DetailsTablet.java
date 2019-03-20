@@ -7,13 +7,13 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class DetailsContact extends AppCompatActivity {
-    DbAdapter db;
+public class DetailsTablet extends AppCompatActivity {
+    MedicineDbadapter db;
     String id,name,number,email,address;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.details_contact);
+        setContentView(R.layout.details_tablet);
 
         Intent intent = getIntent();
         id = intent.getStringExtra("ID");
@@ -26,7 +26,7 @@ public class DetailsContact extends AppCompatActivity {
         ((TextView) findViewById(R.id.email)).setText(email);
         ((TextView) findViewById(R.id.address)).setText(address);
         //calling DbAdapter
-        db = new DbAdapter(this);
+        db = new MedicineDbadapter(this);
         db.open();
     }
     /*public void Edit(View v){
@@ -46,7 +46,7 @@ public class DetailsContact extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         finish();
-        Intent i = new Intent(this, RajshahiActivity.class);
+        Intent i = new Intent(this, KhulnaActivity.class);
         startActivity(i);
     }
 }

@@ -9,10 +9,9 @@ import android.widget.EditText;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
-public class
-addNewContact extends AppCompatActivity {
+public class addNewTablet extends AppCompatActivity {
     //calling variables
-    DbAdapter db;
+    MedicineDbadapter db;
     EditText etname, etnumber, etemail, etaddress;
     String name, number, email, address;
 
@@ -27,7 +26,7 @@ addNewContact extends AppCompatActivity {
         etemail = (EditText) findViewById(R.id.email);
         etaddress = (EditText) findViewById(R.id.address);
         //calling DbAdapter
-        db = new DbAdapter(this);
+        db = new MedicineDbadapter(this);
         db.open();
     }
 
@@ -48,7 +47,7 @@ addNewContact extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         finish();
-        Intent i = new Intent(this, RajshahiActivity.class);
+        Intent i = new Intent(this, KhulnaActivity.class);
         startActivity(i);
     }
 }

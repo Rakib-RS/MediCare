@@ -32,7 +32,7 @@ public class UserActivity extends AppCompatActivity {
                 startActivity(dcIntent);
             }
         });
-        button2 = (Button) findViewById(R.id.blButton);
+        button2 = (Button) findViewById(R.id.mdButton);
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,6 +47,15 @@ public class UserActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent dcIntent = new Intent(getApplicationContext(),CallAmbulance.class);
+                startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.pButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),PrimaryTreatmentActivity.class);
                 startActivity(dcIntent);
             }
         });

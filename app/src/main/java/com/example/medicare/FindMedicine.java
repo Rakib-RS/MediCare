@@ -17,11 +17,11 @@ public class FindMedicine extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent dcIntent = new Intent(getApplicationContext(),RajshahiActivity.class);
+                Intent dcIntent = new Intent(getApplicationContext(),KhulnaActivity.class);
                 startActivity(dcIntent);
             }
         });
-        button2 = (Button) findViewById(R.id.chiButton);
+       /* button2 = (Button) findViewById(R.id.chiButton);
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +35,7 @@ public class FindMedicine extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent dcIntent = new Intent(getApplicationContext(),RajshahiActivity.class);
+                Intent dcIntent = new Intent(getApplicationContext(),KhulnaActivity.class);
                 startActivity(dcIntent);
             }
         });
@@ -74,6 +74,6 @@ public class FindMedicine extends AppCompatActivity {
                 Intent dcIntent = new Intent(getApplicationContext(),RajshahiActivity.class);
                 startActivity(dcIntent);
             }
-        });
+        });*/
     }
 }

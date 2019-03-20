@@ -59,5 +59,14 @@ public class UserActivity extends AppCompatActivity {
                 startActivity(dcIntent);
             }
         });
+        button2 = (Button) findViewById(R.id.healButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),HealthTipsActivity.class);
+                startActivity(dcIntent);
+            }
+        });
     }
 }

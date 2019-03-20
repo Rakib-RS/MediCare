@@ -22,5 +22,59 @@ public class MedicineInfActivity extends AppCompatActivity {
                 startActivity(dcIntent);
             }
         });
+        button2 = (Button) findViewById(R.id.khulnaButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),MymensinghActivity.class);
+                startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.DhButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),MymensinghActivity.class);
+                startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.chiButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),MymensinghActivity.class);
+                startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.rajButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),MymensinghActivity.class);
+                startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.sylButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),MymensinghActivity.class);
+                startActivity(dcIntent);
+            }
+        });
+        button2 = (Button) findViewById(R.id.bariButton);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent dcIntent = new Intent(getApplicationContext(),MymensinghActivity.class);
+                startActivity(dcIntent);
+            }
+        });
     }
 }

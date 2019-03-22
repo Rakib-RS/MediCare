@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BarisalActivity"></activity>
+        <activity android:name=".CallAmbuLanceActivity"></activity>
+        <activity android:name=".BloodBankInfActivity" />
+        <activity android:name=".DoctorInfActivity" />
+        <activity android:name=".BarisalActivity" />
         <activity android:name=".KhulnaActivity" />
         <activity android:name=".MymensinghActivity" />
         <activity android:name=".RajshahiActivity" />
@@ -17,11 +20,26 @@
             android:name=".addNewContact"
             android:label="Add new contact" />
         <activity
+            android:name=".UpdateContact"
+            android:label="Contact Update" />
+        <activity
             android:name=".DetailsContact"
             android:label="Contact Details" />
         <activity
             android:name=".EditContact"
             android:label="Edit Contact" />
+        <activity
+            android:name=".addNewTablet"
+            android:label="Add new tablet" />
+        <activity
+            android:name=".UpdateTablet"
+            android:label="Tablet Update" />
+        <activity
+            android:name=".DetailsTablet"
+            android:label="Tablet Details" />
+        <activity
+            android:name=".EditTablet"
+            android:label="Edit Tablet" />
         <activity android:name=".SylhetActivity" />
         <activity android:name=".DhakaActivity" />
         <activity android:name=".ChittagongActivity" />
